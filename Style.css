@@ -1,10 +1,10 @@
 /* Creación de variables a  utilizar */
 :root {
-    --primary-color: rgb(50,120,100);
-    --secondary-color: #934a19;
-    --text-color: #333333;;
-    --background-color: #f4f4f4;
-    --light-gray: #ecf0f1;
+    --primary-color: rgb(31, 6, 6);
+    --secondary-color: #020000;
+    --text-color: #ffffff;;
+    --background-color: #55b5db;
+    --light-gray: #c162d4;
 }
 
 
@@ -20,7 +20,7 @@ body {
 /*Sección para cambiar color de la barra de sección*/
 .header {
     background: var(--secondary-color);
-    color: rgb(233, 85, 85);
+    color: rgb(39, 55, 190);
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -128,7 +128,7 @@ body {
     height: 350px;
     border-radius: 50%;
     object-fit: cover;
-    border: 20px solid #71ade6;
+    border: 20px solid #a70fa7;
     margin-bottom: 1rem;
 }
 
@@ -136,7 +136,8 @@ body {
 .profile-name {
     font-size: 2.5rem;
     margin: 0.5rem 0;
-    color: #71ade6;
+    color: #a70fa7
+;
 }
 
 .profile-summary {
@@ -153,11 +154,11 @@ body {
 /*Sección para cambiar colores de fondo, tamaño de letra y alineación del texto o contenedores
 del area de Estudios realizados y experiencia laboral*/
 .list li {
-    background-color: rgb(219, 171, 109);
+    background-color: rgb(97, 50, 173);
     border-left: 5px solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 5px rgb(201, 80, 80);
+    box-shadow: 0 2px 5px rgb(97, 50, 173);
     text-align: center;
 }
 
@@ -191,7 +192,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Sección para cambiar el color a la letra o fondo de cada link en el Linktree */
 .linktree-link {
-    background-color: rgb(99, 184, 233);
+    background-color: rgb(229, 99, 233);
     color: rgb(250, 250, 250);
     text-decoration: none;
     padding: 1rem 2rem;
@@ -244,7 +245,7 @@ del area de Estudios realizados y experiencia laboral*/
 .footer {
     text-align: center;
     padding: 1rem;
-    background-color: #71ade6;
+    background-color: #631055;
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
